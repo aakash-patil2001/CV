@@ -1,0 +1,94 @@
+* {
+  margin: 10;
+  padding: 10;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "ubuntu", sans-serif;
+}
+
+div {
+  border-radius: 20px;
+}
+body {
+  background: linear-gradient(to right, #3525af, #c953b9ce);
+  display: block;
+  margin: auto;
+  width: 57%;
+  height: 100%;
+}
+
+.flex-container {
+  width: 900px;
+  color: white;
+
+  margin: 25px auto;
+  margin-bottom: 10px;
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.flex {
+  background-color: #292b29;
+  width: 250px;
+  padding: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+li {
+  height: 2px;
+  text-decoration: underline;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+#select td {
+  font-size: 17px;
+}
+
+li {
+  padding: 14px 39px;
+}
+
+table td th {
+  color: rgb(rgb(157, 255, 0), green, blue);
+  padding: 8px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  background: #292b29;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  background-color: #292b29;
+}
+
+img {
+  display: inline;
+  position: absolute;
+  float: right;
+  left: 60em;
+  top: -14px;
+  border-radius: 40px;
+}
+
+#header {
+  position: relative;
+}
+
+strong {
+  color: white;
+  text-align: center;
+}
